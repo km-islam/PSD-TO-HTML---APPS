@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+
+/*-----navbar Part css-----*/
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    background: rgba(16, 22, 54, 0.26);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    text-transform: capitalize;
+    margin: 0 16px;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link:before {
+    content: '';
+    position: absolute;
+    border-top: 3px solid #4c76ff;
+    opacity: 0;
+    width: 0;
+    top: -11px;
+    left: 0;
+    transition: all linear .4s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover:before {
+    opacity: 1;
+    width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+
+/*-----navbar Part css-----*/
+
+#banner {
+    background: url(../images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 295px;
+    padding-bottom: 120px;
+    position: relative;
+}
+
+#banner:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.banner-text h1 {
+    font-size: 62px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+.banner-text h2 {
+    font-size: 48px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.banner-text span {
+    color: #4c76ff;
+}
+
+.banner-text p {
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    position: relative;
+}
+
+.banner-text p:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 27%;
+    width: 28px;
+    height: 1px;
+    background: #4c76ff;
+}
+
+.banner-text p:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 27%;
+    width: 28px;
+    height: 1px;
+    background: #4c76ff;
+}
+
+.banner-icon {
+    margin-top: 110px;
+}
+
+.banner-icon i {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.3);
+    padding: 0 8px;
+}
+
+.banner-icon i:hover {
+    color: #fff;
+}
+
+
+/*----------feature part css----------*/
+#feature {
+    padding-top: 70px;
+    padding-bottom: 120px;
+    background: #efefef;
+}
+
+.heading h2 {
+    font-size: 28px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    color: #4c76ff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.feature-text h3 {
+    font-size: 16.78px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #062033;
+    margin-bottom: 15px;
+}
+
+.feature-text p {
+    font-size: 10.91px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #062033;
+    line-height: 17.62px;
+    width: 260px;
+}
+
+.feature-itam {
+    padding-top: 80px;
+}
+
+
+
+/*----------timar part css----------*/
+#timar {
+    padding-top: 90px;
+}
+
+.timar-top {
+    margin-bottom: 70px;
+}
+
+.timar-top p {
+    font-size: 15.08px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #282528;
+    line-height: 30.15px;
+}
+
+.timar-text h3 {
+    font-size: 13.4px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #282528;
+    margin-bottom: 15px;
+}
+
+.timar-text p {
+    font-size: 10.89px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #282528;
+    line-height: 20.1px;
+    width: 235px;
+}
+
+.timar-icon {
+    margin-right: 10px;
+}
+
+.timar-itam:nth-child(2) {
+    margin-top: 75px;
+}
+
+.timar-itam:nth-child(3) {
+    margin-top: 75px;
+}
+
+.timar-contaien {
+    margin-top: 55px;
+}
+
+
+/*----------work part css----------*/
+#work {
+    padding-top: 80px;
+    padding-bottom: 108px;
+}
+
+.timar-top P {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    color: #062033;
+    line-height: 17.75px;
+    margin-top: 35px;
+    margin-bottom: 82px;
+}
+
+.buttons button {
+    background: transparent;
+    border: none;
+}
+
+.buttons button a {
+    font-size: 14px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    color: #062033;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all linear .3s;
+    padding: 0 16.5px;
+}
+
+.buttons button a:hover {
+    background: #4c76ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.col {
+    padding: 0;
+}
+
+.work-gallery {
+    line-height: 0;
+}
+
+/*----------team part css----------*/
+#team{
+    padding-bottom: 110px;
+}
+.team-im {
+    position: relative;
+}
+
+.team-ovarlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 84%;
+    padding: 20px 22px 0 22px;
+    background: rgba(76, 118, 255, 0.86);
+    z-index: 999;
+    opacity: 0;
+    transition: all linear .4s;
+}
+.team-itam:hover .team-ovarlay{
+    opacity: 1;
+}
+
+.team-itam:hover .team-btm h4{
+    color: #0eb493;
+}
+.team-ovarlay span {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    line-height: 19.91px;
+}
+
+.team-ovarlay p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    line-height: 19.91px;
+    margin-top: 10px;
+}
+
+.team-icon {
+    margin-top: 55px;
+}
+
+.team-icon i {
+    font-size: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.30);
+    padding: 9px 8px;
+}
+
+.team-btm h4{
+    transition: all linear .4s;
+}
+
+/*----------counter part css----------*/
+#counter{
+    background: url(../images/counter-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-top: 102px;
+    padding-bottom: 102px;
+    position: relative;
+}
+.counter-ovarlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(6, 32, 51, 0.81);
+}
+.heading2 h2{
+    font-size: 20.91px;
+    font-weight: 900;
+    margin-bottom: 8px;
+}
+.counter-itam{
+    margin-top: 20px;
+}
+.counter-icon{
+    margin-bottom: 20px;
+}
+.counter-icon i{
+    font-size: 30px;
+    color: #fff;
+    padding: 35px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+}
+.counter-text span{
+    font-size: 44.8px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+.counter-text P{
+    font-size: 13.44px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+/*----------discuss part css----------*/
+#discuss{
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+.discuss-left p{
+    font-size: 18.35px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #193142;
+    margin-bottom: 20px;
+}
+.discuss-left span{
+    font-size: 10.84px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #6a737b;
+    
+}
+.discuss-left a{
+    font-size: 10.84px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #6a737b;
+}
+.discuss-middel p{
+    font-size: 20.02px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #062033;
+}
+form input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+    font-size: 10.84px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #5b646e;
+    padding-bottom: 15px;
+    margin-top: 32px;
+}
+form textarea{
+    width: 100%;
+    border: none;
+    margin-top: 35px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+    font-size: 10.84px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #5b646e;
+    padding-bottom: 15px;
+}
+.send{
+    margin-top: -10px;
+}
+.send input{
+    position: relative;
+    background: transparent;
+    border: none;
+    font-size: 13.35px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+}
+.send i{
+    position: absolute;
+    left: -5px;
+    top: 26px;
+    font-size: 14px;
+    color: #4c76ff;
+}
+.socile-icon i{
+    font-size: 18px;
+    color: #cdd2d6;
+    margin-top: 10px;
+}
+.socile-icon i:nth-child(1){
+    margin-top: none;
+}
+/*----------footer part css----------*/
+
+#footer{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #000000;
+}
+.footer-itam p{
+    font-size: 12.41px;
+    font-family: 'lato',sans-serif;
+    font-weight: 300;
+    color: #fff;
+    line-height: 22.9px;
+    margin-top: 20px;
+}
+
+
+
+
+
+/*----------feature part css----------*/
